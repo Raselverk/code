@@ -1,0 +1,390 @@
+body{
+    width: 1220px;
+    margin: 0 auto;
+}
+
+header{
+    width: 1220px;
+
+    margin: 0 auto;
+
+    background-image: url(img/background.png);
+    background-size:cover;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 15px;
+}
+
+.name{
+    flex:40%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+   
+    color: #FFFFFF; 
+}
+
+ .menu{
+     flex: 60%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+
+    letter-spacing: 0.2px; 
+
+    color: #FFFFFF;
+}
+ 
+.menuList{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu li{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.headInfo h1{
+    width: 1008px;
+    height: 100px;
+    margin: 100px auto;
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 100px;
+
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.headInfo h2{
+    width: 550px;
+    height: 32px;
+    margin: 0 auto;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+
+
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+}
+
+.headInfo button{
+    width: 172px;
+    height: 56px;
+    margin: 50px auto;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+
+    color: white;
+    background: #00A031;
+    border-radius: 27px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services article{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.serviceInfo h2{
+    width: 526px;
+    height: 51px;
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 51px;
+
+    letter-spacing: 0.4px;
+
+    color: #00A031;
+}
+.serviceInfo span{
+    width: 574px;
+    height: 48px;
+    margin-top: 20px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    letter-spacing: 0.2px;
+    
+    color: #6C6C6C;
+}
+.serviceInfo ul{
+    width: 230px;
+    height: 48px;
+}
+.serviceInfo li{
+    list-style-type: none;
+}
+.serviceInfo li:before {
+    content: url(img/Path.png)
+}
+.serviceInfo button{
+    width: 208px;
+    height: 54px;
+
+    border: 2px solid #00A031;
+    box-sizing: border-box;
+    border-radius: 28px;
+
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #00A031;
+}
+
+.team{
+    display: flex;
+}
+
+.team div{
+    margin: 0 auto;
+}
+
+.team div h2{
+    width: 328px;
+    height: 51px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 51px;
+
+    letter-spacing: 0.4px;
+
+    color: #00A031;
+}
+
+.team div span{
+    width: 142px;
+    height: 16px;
+
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 16px;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #6C6C6C;
+}
+
+
+.team div p{
+    width: 550px;
+    height: 130px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.2px;
+
+    color: #6C6C6C;
+}
+
+.team div ul li{
+    list-style-type: circle;
+    display: inline-block;
+    text-align: center;
+    color:#D8D8D8;
+}
+
+.team div ul li span{
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 16px;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #6C6C6C;
+}
+
+.contactUs h2{
+    width: 324px;
+    height: 120px;
+
+    display: flex;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 60px;
+
+
+    color: #00A031;
+}
+
+.contactUs span{
+    width: 344px;
+    height: 48px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    letter-spacing: 0.2px;
+
+    color: #6C6C6C;
+}
+
+.city{
+    width: 270px;
+    height: 128px;
+}
+
+.cityName{
+    width: 159px;
+    height: 28px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+
+    letter-spacing: 0.2px;
+
+    color: #00A031;
+}
+
+main{
+    margin-right: 75px;
+    margin-left: 15px;
+    float: left;
+}
+
+#map {
+    width: 702px;
+    height: 756px;
+}
+
+.cityInfo{
+    text-align: center;
+
+    width: 321px;
+    height: 496px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.0758039);
+}
+
+.cityInfo h2{
+    margin: 0 auto;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 51px;
+
+
+    letter-spacing: 0.4px;
+
+    color: #1C201E;
+}
+
+footer{
+    width: auto;
+    height:120px;
+
+    background: #222222;
+}
+
+.footerHeader{
+    display: flex;
+    justify-content: center;
+
+}
+.footerName{
+    width: 192px;
+    height: 32px;
+    color: white;
+    margin-top: 25px;
+
+}
+
+footer ul{
+    width: 490px;
+    height: 16px;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+footer ul li{
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 16px;
+
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #777777;
+}
+footer span{
+    margin-left: 10px;
+}
+
